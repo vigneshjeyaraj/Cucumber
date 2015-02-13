@@ -1,0 +1,49 @@
+[
+  {
+    "id": "user-login.",
+    "description": "",
+    "name": "User Login.",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "user-login.;user-login-to-gmail-with-valid-credentials.",
+        "description": "",
+        "name": "User login to GMail with valid credentials.",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "Navigate to Login Page.",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "provide valid Username and Password.",
+            "keyword": "When ",
+            "line": 6,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "Validate the user is logged in.",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "login.feature"
+  }
+]
